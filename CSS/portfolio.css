@@ -1,0 +1,206 @@
+/*
+    Name: Patricia Gariando
+    Student ID: 991 446 494
+    Summary: Assignment 2 - portfolio.css 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* general stuff */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-color: #C8F4F9;
+    height: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title h1 {
+    padding: 15px;
+    margin: 0;
+}
+
+/* navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: #c5d7ed;
+    color: black;
+}
+
+/* .col1 sidelinks  */
+.sidelinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.sidelinks li {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.sidelinks li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.sidelinks li a:hover {
+    background: black;
+    color: white;
+}
+
+/* classes */
+.col1 {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+.col1 img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col1 tr {
+    font-size: 12px;
+}
+
+.col1 td {
+    padding: 10px 10px;
+}
+
+.col2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    background-color: #f1eef7;
+}
+
+.col2 img {
+    display: block;
+    width: 100%;
+}
+
+.col3,
+.col5 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    background-color: #e2dcef;
+}
+
+.col3 img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.col5 img {
+    display: block;
+    width: 100%;
+    box-shadow: 8px 8px 10px #65499c;
+    /* you can style box shadows in many ways */
+}
+
+/* tables */
+table,
+th,
+td {
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.col2 table {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.col3 table,
+.col5 table {
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    float: left;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+footer p {
+    padding: 0px 15px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.container img {
+    height: 275px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    background: black;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

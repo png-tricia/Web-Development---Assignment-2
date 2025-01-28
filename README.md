@@ -1,7 +1,6 @@
 ## SYST10049 Web Development - Assignment 2
 Program: **Computer Programming @ Sheridan College** <br>
 Note: The following assignment was completed during Semester 1 (2023) <br>
-Languages: HTML, CSS 
 
 ## The Task:
 Create a portfolio page about yourself. This should be the homepage of your website. You will use it to showcase your work. 
